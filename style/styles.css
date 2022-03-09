@@ -1236,14 +1236,16 @@ resize: none;
     height: 40px;
 }
  .form-icon{
-  padding-left:12px;
-  position: relative;
-  bottom: 29px;
+  left:12px; 
+  padding-top: 11px;
+  position:  absolute;
+  height: 40px;
+  width: 18;
   
 } 
 .form-icon-email{
   /* left:12px;  */
-  position: relative;  
+  /* position: relative;   */
   margin-bottom:29px;
  padding-left:12px; 
  height: 18px;
@@ -1272,6 +1274,10 @@ display: block;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
+}
+.label-form-header{
+  position: relative;
+
 }
 .user-policy-text{
   width: 420px;
