@@ -1,0 +1,107 @@
+
+.lorem-impusem-icons-all{
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+
+
+.lorem-impusem-icons-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 30px;
+
+}
+
+.lorem-impusem-icon{
+  width: 70px;
+  height: 70px;
+}
+
+.lorem-impusem-icons-link{
+display: flex;
+  width: 270px;
+height: 120px;
+  background-color: #F5F4FA;
+  border-width::4px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.lorem-impusem-icons-item:not(:last-child){
+  margin-right: 30px;
+}
+
+
+
+
+.lorem-ipsum {
+  position:
+  height: 101px;
+  top: 774px;
+  font-family: var(--main-font);
+  color: #212121;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 0 auto;
+  margin-top:30px;
+
+
+}
+
+
+.lorem-ipsum-item {
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* align-items: center;
+justify-content: center; */
+margin: 0 auto;
+justify-content: center;
+
+
+}
+
+.lorem-ipsum-item-p{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+text-transform: none;
+margin-top: 10px;
+}
+ .container-lorem-ipsum{
+  display: flex;
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom:94px;
+
+
+
+
+
+ }
+.lorem-ipsum-item{
+  flex-basis: 270px;
+
+
+
+}
+.lorem-ipsum-item:not(:last-child){
+  margin-right: 30px;
+}

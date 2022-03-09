@@ -1,0 +1,292 @@
+
+.join-to-us,
+.join-to-us-porfolio{
+  display: flex;
+   flex-direction: column;
+   width: 206px;
+   
+
+}
+.join-to-us{
+  top:2752px;
+  position:absolute;
+}
+
+.join-to-us-list-item{
+  list-style: none;
+  display: flex;
+
+
+}
+
+
+.footer {
+height: 252px;
+background: #2F303A;
+margin:0 auto;
+margin-top:94px;
+}
+
+.adress-portfolio{
+height: 252px;
+background: #2F303A;
+margin:0 auto;
+margin-left: 215px;
+margin-top:94px;
+}
+
+
+
+
+.web,
+.studio {
+  Weight:700;
+  text-decoration: none;
+  font-family: var(--socondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  font-style: normal;
+}
+.address-logo{
+position: absolute;
+width: 145px;
+height: 31px;
+/* left: 0px; */
+font-style: none;
+text-decoration: none;
+font:none;
+
+
+}
+.studio {
+  color: #000000;
+}
+.footer {
+  text-decoration: none;
+  font-family: var(--socondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.footer-address{
+
+  position: relative;
+   top: 30px; 
+} 
+.footer-address-porfolio{
+  display: flex;
+align-items: flex-start;
+} 
+.footer-icon-register{
+  fill: #FFFFFF;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  position:relative;
+  top:5px;
+
+}
+
+
+.adress-street{
+color: #FFFFFF;
+font-size: 14px;
+line-height: 1.714;
+/* or 171% */
+letter-spacing: 0.003em
+font-style: normal;
+font-weight: normal;
+font-family: var(--main-font);
+margin-left:0px;
+margin-top:20px;
+font-style: normal;
+
+}
+
+.address-mail,
+.address-phone {
+  font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+padding-top:9px;
+margin-left:0px;
+}
+
+.form-icon-register{
+  fill:#FFFFFF;
+
+}
+
+
+.social-icon-footer{
+  width: 20px;
+  height: 20px;
+  fill:#FFFFFF;
+}
+
+.social-icon-header-mail{
+  width: 16px;
+  height: 12px;
+  fill:#757575;
+
+}
+
+.social-icon-header-smartphone{
+  width: 10px;
+  height: 16px;
+  fill:#757575;
+ 
+}
+
+.join-to-us-tittle,
+.join-to-us-tittle-portfolio{
+
+width: 113px;
+height: 16px;
+
+
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+position: absolute;
+top: 2751px;
+margin-left: 316px;
+
+}
+.join-to-us-tittle-portfolio-h2{
+  margin-bottom: 20px;
+}
+.join-to-us-tittle-portfolio-h2,
+.join-to-us-list-portfolio-ul{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+width: 113px;
+height: 16px;
+
+margin-left: 316px;
+}
+
+
+
+.join-to-us-list-portfolio-ul,
+.join-to-us-list-portfolio-ul-portfolio{
+  display: flex;
+
+}
+.join-to-us-list-portfolio-ul-portfolio{
+  width: 206px;
+  justify-content: space-between;
+  margin-left: 316px;
+
+
+}
+.join-to-us{
+  position: absolute;
+  top:2644px;
+}
+.join-to-us-list{
+    list-style: none;
+
+width: 206px;
+height: 44px;
+left: 531px;
+justify-content:space-between;
+align-items: center;
+}
+.join-to-us-list-portfolio{
+   list-style: none;
+ position: absolute;
+width: 206px;
+height: 44px;
+margin-left: 316px;
+/* top: 2787px;  */
+justify-content:space-between;
+align-items: center;
+top: 2787px;
+}
+
+.join-to-us-list-portfolio{
+  display: flex;
+
+}
+.join-to-us-list-link{
+  display: flex;
+   width: 44px;
+  height: 44px;
+    border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join-to-us-list-link
+.join-to-us-list-link-portfolio{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.join-to-us-list-link:hover,
+.join-to-us-list-link:focus{
+background-color: var(--main-color)
+
+}
+
+.join-to-us-list-link-portfolio:hover,
+.join-to-us-list-link-portfolio:focus{
+background-color: var(--main-color)
+}
+.footer-address-portfolio-2{ 
+top:1692px;
+  position: absolute;
+}
+.footer-portfolio{
+  display: flex;
+  padding-top: 60px;
+  height: 252px;
+background: #2F303A;
+margin:0 auto;
+}
+.join-to-us-portfolio{
+  top:1692px;
+  position: absolute; 
+}
+
+.join-to-us-portfolio-2{
+  top:1700px;
+  position: absolute; 
+  
+}

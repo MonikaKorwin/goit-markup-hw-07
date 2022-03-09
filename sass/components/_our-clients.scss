@@ -1,0 +1,101 @@
+
+.tittle{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.666px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+}
+
+.our-clients-tittle{
+display: block;
+margin: 0 auto;
+font-family:var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.666px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.our-clients-icon-lisc{
+  height: 41.18px;
+width: 43.46px;
+fill:#AFB1B8;
+}
+
+
+
+.our-clients-icon{
+width: 106px;
+height: 60px;
+fill:#AFB1B8;
+}
+.our-clients-list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top:50px;
+  padding-bottom: 94px;;
+  }
+.container-our-clients{
+height: 184px;
+margin:o auto;
+align-items: center;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.our-clients-icon:not(:last-child){
+  margin-right: 30px;
+
+}
+.our-clients-link{
+  display: flex;
+  width: 170px;
+  height: 92px;
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: #AFB1B8;
+  border-style: solid;
+   justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.our-clients-link:not(:last-child){
+margin-rigt:30px;
+}
+.our-clients-icon-lisc:hover,
+.our-clients-icon-lisc:focus,
+.our-clients-icon:hover,
+.our-clients-icon:focus{
+  fill: var(--main-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.our-clients-link:hover,
+.our-clients-link:focus{
+border-color: var(--main-color);
+}
+
+.our-clients-icon-company{
+margin: 0 auto;
+align-items: center;
+background-position: center;
+}
