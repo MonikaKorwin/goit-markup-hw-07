@@ -127,7 +127,7 @@ margin-right: 30px;
 
 
 /* .logo, */
-.address-logo,
+/* .logo__address, */
 .navigation-list-item-portfolio {
     text-decoration: none;
 }
@@ -773,12 +773,12 @@ color: #FFFFFF;}
 /* =============FOOTER INDEX.HTML============ */
 
 
-.footer {
+/* .logo__studio-footer {
 height: 252px;
 background: #2F303A;
 margin:0 auto;
 margin-top:94px;
-}
+} */
 
 .adress-portfolio{
 height: 252px;
@@ -804,21 +804,21 @@ margin-top:94px;
   color: #2196f3;
   font-style: normal;
 } */
-.address-logo{
+/* .logo-address{
 position: absolute;
 width: 145px;
 height: 31px;
 /* left: 0px; */
 font-style: none;
 text-decoration: none;
-font:none;
 
 
-}
+
+} */
 /* .logostudio {
   color: #000000;
 } */
-.footer {
+/* .logo__studio-footer {
   text-decoration: none;
   font-family: var(--socondary-font);
   font-weight: bold;
@@ -827,7 +827,7 @@ font:none;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #FFFFFF;
-}
+} */
 .footer-address{
 
   position: relative;
@@ -847,7 +847,7 @@ align-items: flex-start;
 
 }
 
-.join-to-us,
+/* .join, */
 .join-to-us-porfolio{
   display: flex;
    flex-direction: column;
@@ -867,7 +867,7 @@ align-items: flex-start;
 
 }
 
-.adress-street{
+/* .adress-street{
 color: #FFFFFF;
 font-size: 14px;
 line-height: 1.714;
@@ -880,9 +880,9 @@ margin-left:0px;
 margin-top:20px;
 font-style: normal;
 
-}
+} */
 
-.address-mail,
+/* .address-mail,
 .address-phone {
   font-family: var(--main-font);
 font-style: normal;
@@ -894,7 +894,7 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 padding-top:9px;
 margin-left:0px;
-}
+} */
 
 .form-icon-register{
   fill:#FFFFFF;
@@ -945,10 +945,10 @@ top: 2751px;
 margin-left: 316px;
 
 }
-.join-to-us-tittle-portfolio-h2{
+/* .join__tittle{
   margin-bottom: 20px;
-}
-.join-to-us-tittle-portfolio-h2,
+} */
+/* .join__tittle, */
 .join-to-us-list-portfolio-ul{
 font-family: var(--main-font);
 font-style: normal;
@@ -970,11 +970,11 @@ margin-left: 316px;
 
 
 .join-to-us-list-portfolio-ul,
-.join-to-us-list-portfolio-ul-portfolio{
+.join__list{
   display: flex;
 
 }
-.join-to-us-list-portfolio-ul-portfolio{
+.join__list{
   width: 206px;
   justify-content: space-between;
   margin-left: 316px;
@@ -1045,13 +1045,13 @@ background-color: var(--main-color)
 top:1692px;
   position: absolute;
 }
-.footer-portfolio{
+/* .footer-html{
   display: flex;
   padding-top: 60px;
   height: 252px;
 background: #2F303A;
 margin:0 auto;
-}
+} */
 .join-to-us-portfolio{
   top:1692px;
   position: absolute; 
