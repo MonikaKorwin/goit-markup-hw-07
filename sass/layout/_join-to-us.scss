@@ -18,6 +18,7 @@
     margin-bottom: 20px;
     position: absolute;
     top: 2644px;
+    
   }
 }
 
@@ -32,10 +33,14 @@
   left: 531px;
   justify-content: space-between;
   align-items: center;
+  
+  
+  }
 
   &_item {
     list-style: none;
     display: flex;
+    padding-bottom: 200px;
   }
 }
 .join__list_link {
@@ -52,3 +57,12 @@
     background-color: var(--main-color);
   }
 }
+
+
+
+.join-html {
+  display: flex;
+  flex-direction: column;
+  width: 206px;
+}
+

@@ -13,10 +13,14 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
+    position:relative;
+    bottom:70px;
+    
   }
   &__ul {
     list-style: none;
     display: flex;
+    
   }
   &__ul_item-email {
     width: 358px;
@@ -28,6 +32,8 @@
     background-color: transparent;
     padding-left: 16px;
     margin-right: 12px;
+    position: relative;
+    bottom:70px;
   }
 }
 .newsletter-icon-register {
@@ -38,3 +44,7 @@
   position: relative;
   top: 5px;
 }
+
+  
+
+ 
