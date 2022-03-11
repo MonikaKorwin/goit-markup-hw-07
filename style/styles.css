@@ -1041,10 +1041,10 @@ background-color: var(--main-color)
 .join-to-us-list-link-portfolio:focus{
 background-color: var(--main-color)
 }
-.footer-address-portfolio-2{
+/* .footer__address_portfolio-2{
 top:1692px;
   position: absolute;
-}
+} */
 /* .footer-html{
   display: flex;
   padding-top: 60px;
@@ -1057,11 +1057,11 @@ margin:0 auto;
   position: absolute;
 }
 
-.join-to-us-portfolio-2{
+/* .join__portfolio_2{
   top:1700px;
   position: absolute;
 
-}
+} */
 /* .newsletter_tittle{
   font-family: Roboto;
 font-style: normal;
@@ -1124,10 +1124,10 @@ color: #FFFFFF;
   position: relative;
 
 } */
-.newsletter-portfolio{
+/* .newsletter__portfolio{
   margin-left: 600px;
- ;
-}
+ 
+} */
 
 /* =============FOOTER PORTFOLIO.HTML============ */
 
