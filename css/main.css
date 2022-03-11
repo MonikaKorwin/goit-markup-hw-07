@@ -50,7 +50,7 @@ img {
 }
 
 .logo__web {
-  weight: 700;
+  width: 700px;
   text-decoration: none;
   font-family: var(--socondary-font);
   font-weight: bold;
@@ -363,22 +363,6 @@ img {
   margin-top: 30px;
 }
 
-.container__lorem-ipsum {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1200px;
-  padding: 0 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 94px;
-}
-
 .lorem__ipsum_item {
   font-style: normal;
   font-weight: bold;
@@ -412,5 +396,84 @@ justify-content: center; */
   color: #757575;
   text-transform: none;
   margin-top: 10px;
+}
+
+.container__lorem-ipsum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  padding: 0 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 94px;
+}
+
+.whatWeDo {
+  height: 386px;
+  margin: 0 auto;
+  margin-top: 94px;
+}
+
+.whatWeDo__tittle {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.whatWeDo__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whatWeDo__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.whatWeDo__span-computer {
+  position: relative;
+  z-index: 30;
+  margin-left: 90px;
+  bottom: -27px;
+  width: 190px;
+  height: 16px;
+}
+
+.whatWeDo__span-mobile {
+  position: relative;
+  z-index: 30;
+  margin-left: 113px;
+  bottom: -27px;
+  width: 144px;
+  height: 16px;
+}
+
+.whatWeDo .whatWeDo__span-content {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

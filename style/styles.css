@@ -388,14 +388,14 @@ margin-top: 10px;
 
 /* <!-- What-we-do--> */
 
-.what-we-do{
+/* .whatWeDo{
 height: 386px;
 margin:0 auto;
 margin-top: 94px;
 
 
-}
-.what-we-do-tittle{
+} */
+/* .whatWeDo__tittle{
 margin:0 auto;
 margin-bottom: 50px;
 font-family: var(--main-font);
@@ -407,26 +407,24 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121
 
-}
+} */
 
-.container-what-we-do {
+/* .container-what-we-do {
  display: flex;
  justify-content: center;
  align-items: center;
 
 
-}
-.what-we-do_item{
+} */
+/* .whatWeDo__item{
   display: flex;
   flex-direction: column;
 }
-.what-we-do_item:not(:last-child){
+.whatWeDo__item:not(:last-child){
 margin-right:30px;
-}
+} */
 
-.what-we-do-content-item-span-computer,
-.what-we-do-content-item-span-mobile,
-.what-we-do-content-item-span-grafic{
+/* .whatWeDo__span-content{
 font-family: var(--main-font);
 font-style: normal;
 font-weight: bold;
@@ -435,10 +433,9 @@ line-height: 1.142px;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #FFFFFF;
 
-}
+} */
 .box{
 background-color: rgba(47, 48, 58, 0.8);
 width: 370px;
@@ -452,32 +449,32 @@ display: block;
 
 }
 
-.what-we-do-content-item-span-computer{
+/* .whatWeDo__span-computer{
 position:relative;
 z-index: 30;
 margin-left:90px;
 bottom:-27px;
 width: 190px;
 height: 16px; 
-}
+} */
 
-.what-we-do-content-item-span-mobile{
+/* .whatWeDo__span-mobile{
 position:relative;
 z-index: 30;
 margin-left:113px;
 bottom:-27px;
 width: 144px;
 height: 16px;
-}
+} */
 
-.what-we-do-content-item-span-grafic{
+/* .whatWeDo__span-grafic{
 position:relative;
 z-index: 30;
 margin-left:94px;
 bottom:-27px;
 width: 182px;
 height: 16px;
-}
+} */
 /* <!-- end-What-we-do--> */
 
 /* <!-- our-team --> */
@@ -696,7 +693,7 @@ letter-spacing: 0.03em;
   border-radius: 4px;
 }
 .our-clients-link:not(:last-child){
-margin-rigt:30px;
+margin-right:30px;
 }
 .our-clients-icon-lisc:hover,
 .our-clients-icon-lisc:focus,
@@ -1471,9 +1468,7 @@ align-items: center;
 
 /* =============FILTER-PHOTOS============ */
 
-.filter{
 
-}
 
 .filers-examples {
 width: 1170px;
