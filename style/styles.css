@@ -321,7 +321,7 @@ top:280px;
 
 
 
-.lorem-ipsum {
+/* .lorem__ipsum {
   position:
   height: 101px;
   top: 774px;
@@ -332,10 +332,10 @@ top:280px;
   margin-top:30px;
 
 
-}
+} */
 
 
-.lorem-ipsum-item {
+/* .lorem__ipsum_item {
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -348,9 +348,9 @@ margin: 0 auto;
 justify-content: center;
 
 
-}
+} */
 
-.lorem-ipsum-item-p{
+/* .lorem__ipsum_item-p{
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -359,8 +359,8 @@ letter-spacing: 0.03em;
 color: #757575;
 text-transform: none;
 margin-top: 10px;
-}
- .container-lorem-ipsum{
+} */
+ /* .container__lorem-ipsum{
   display: flex;
   width: 1200px;
   padding: 0 15px;
@@ -368,21 +368,18 @@ margin-top: 10px;
   margin: 0 auto;
   justify-content: center;
   margin-bottom:94px;
+ } */
 
 
-
-
-
- }
-.lorem-ipsum-item{
+/* .lorem__ipsum_item{
   flex-basis: 270px;
 
 
 
-}
-.lorem-ipsum-item:not(:last-child){
+} */
+/* .lorem__ipsum_item:not(:last-child){
   margin-right: 30px;
-}
+} */
 
 /* <!-- lorem-ipsum--> */
 
