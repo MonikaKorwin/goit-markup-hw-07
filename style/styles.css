@@ -478,7 +478,7 @@ height: 16px;
 /* <!-- end-What-we-do--> */
 
 /* <!-- our-team --> */
-.team {
+/* .team {
 height: 708px;
 /* left: 0px; */
 
@@ -490,9 +490,9 @@ margin-top:94px;
 margin-bottom:94px;
 
 
-}
+} */
 
-.team-tittle{
+/* .team__tittle{
 
 font-family: var(--main-font);
 font-style: normal;
@@ -505,17 +505,17 @@ color: #212121;
 padding-bottom:50px;
 padding-top: 94px;
 
-}
+} */
 
-.team-member-all{
+/* .team__member_all{
   display: flex;
   align-items: center;
   justify-content: center;
   /* text-decoration: none;
   font-style: none; */
 
-}
-.team-member{
+} */
+/* .team__member{
 
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -524,11 +524,11 @@ margin-bottom: 94px;
 
 
 }
-.team-member:not(:last-child){
+.team__member:not(:last-child){
   margin-right:30px;
-}
+} */
 
-.team-member-name {
+/* .team-member-name {
 font-family: var(--main-font);
 font-style: normal;
 font-weight: 500;
@@ -541,8 +541,8 @@ text-align: center;
 color: #212121;
 margin-top: 30px;
 margin-bottom: 10px;
-}
-.team-member-name-career{
+} */
+/* .team__member_name-career{
   /* position: realtive;
 width: 147px;
 height: 19px;
@@ -560,15 +560,15 @@ color: #757575;
 margin-top:10px;
 margin-bottom:30px;
 
-}
+} */
 
-.social-icon{
+/* .social-icon{
   width: 20px;
   height: 20px;
   fill:#AFB1B8;
 
-}
-.team-member-social-list-link{
+} */
+/* .team__member_social-list-item-link{
   display: flex;
   width: 44px;
   height: 44px;
@@ -579,7 +579,7 @@ margin-bottom:30px;
 
 
 
- }
+ } */
 .team-member-social-list{
   display: flex;
   align-items: center;
@@ -591,11 +591,25 @@ margin-bottom:30px;
   margin-top: 16px;
   margin-bottom: 18px;
 }
-.team-member-social-list-link:hover,
-.team-member-social-list-link:focus{
+.team__member_social-list-item-link{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ 
+
+
+/* .team__member_social-list-item-link:hover,
+.team__member_social-list-item-link:focus{
 background-color: var(--main-color);
 fill:#FFFFFF;
-}
+} */
 /* .social-icon:hover,
 .social-icon:focus{
   fill: #FFFFFF; 
@@ -603,7 +617,7 @@ fill:#FFFFFF;
 
 
 
- .team-member-social-list-link:hover
+ .team__member_social-list-item-link:hover
 .social-icon{
   fill:#FFFFFF; 
 }  
@@ -615,7 +629,7 @@ fill:#FFFFFF;
 /*<!-- our-clients --> */
 
   /* Nasz zespół */
-.tittle{
+/* .tittle{
 font-family:var(--main-font);
 font-style: normal;
 font-weight: bold;
@@ -627,7 +641,7 @@ letter-spacing: 0.03em;
 color: #212121;
 
 
-}
+} */
 
 .our-clients-tittle{
 display: block;

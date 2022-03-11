@@ -1,4 +1,6 @@
 @import './base/container';
+@import './base/container-whatWeDo';
+
 @import './utils/variables';
 
 @import './components/logo';
@@ -12,6 +14,8 @@
 
 @import './layout/whatwedo';
 
+@import './layout/team';
+@import './components/social-icon';
 
 
 
