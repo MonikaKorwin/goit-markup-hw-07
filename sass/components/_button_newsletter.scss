@@ -15,9 +15,8 @@
   letter-spacing: 0.06em;
 
   color: #ffffff;
- position: relative;
-    bottom:70px; 
-
+  position: relative;
+  bottom: 70px;
 
   &::after {
     background-image: url('./images/icons.swg.svg#icon-IG');
@@ -25,7 +24,6 @@
     background-size: 24px, 24px;
   }
 }
-
 
 .button-newletter-register {
   width: 200px;
@@ -44,13 +42,15 @@
   letter-spacing: 0.06em;
 
   color: #ffffff;
- position: relative;
-    bottom:70px; 
+  position: relative;
+  bottom: 70px;
 
-
+  
   &::after {
     background-image: url('./images/icons.swg.svg#icon-IG');
     fill: #eeeeee;
     background-size: 24px, 24px;
   }
 }
+
+
