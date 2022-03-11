@@ -287,7 +287,7 @@ top:280px;
 
 
 
-.lorem-impusem-icons-list{
+/* .lorem__list{
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -297,28 +297,26 @@ top:280px;
   margin-top: 94px;
   margin-bottom: 30px;
 
-}
+} */
 
-.lorem-impusem-icon{
+/* .lorem__icon{
   width: 70px;
   height: 70px;
-}
+} */
 
-.lorem-impusem-icons-link{
-display: flex;
+.lorem__icons-link{
+  display: flex;
   width: 270px;
-height: 120px;
+  height: 120px;
   background-color: #F5F4FA;
   border-width::4px;
   justify-content: center;
   align-items: center;
+} 
 
-
-}
-
-.lorem-impusem-icons-item:not(:last-child){
+/* .lorem__item:not(:last-child){
   margin-right: 30px;
-}
+} */
 
 
 
