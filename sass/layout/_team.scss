@@ -19,7 +19,7 @@
     padding-bottom: 50px;
     padding-top: 94px;
   }
-  &__member_all {
+  &__member-all {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
   }
 }
 // ------------------------------------NAME-AND-CARIEER------------------------------------------------------
-.team__member_name {
+.team__member-name {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -73,7 +73,7 @@
 }
 
 // ------------------------------------ICONS------------------------------------------------------
-.team__membersocial_list {
+.team__member-social-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
