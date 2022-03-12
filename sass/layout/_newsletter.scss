@@ -13,12 +13,14 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
+    position: relative;
+    bottom:70px;
   }
   &__ul {
     list-style: none;
     display: flex;
   }
-  &__ul_item-email {
+  &__ul-item-email {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -42,3 +44,33 @@
 }
 
 
+// -----------
+
+.newsletter__tittle-html{
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    bottom:46px;
+
+}
+
+.newsletter-icon-register-html {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  position: relative;
+  top: 5px;
+}
+
+.newsletter__ul-item-html{
+  position: relative;
+  top:30px;
+}
