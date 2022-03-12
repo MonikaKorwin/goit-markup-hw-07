@@ -21,7 +21,7 @@
     padding-bottom: 25px;
     height: 16px;
   }
-  &__list_item {
+  &__list-item {
     margin-right: 46px;
     font-weight: 500;
     font-size: 14px;
@@ -30,8 +30,8 @@
     color: #212121;
     text-decoration: none;
   }
-  &__list_item:hover,
-  &__list_item:focus {
+  &__list-item:hover,
+  &__list-item:focus {
     color: var(--main-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -58,7 +58,7 @@
   .navigation__socialicon:focus {
     fill: var(--main-color);
   }
-  &__socialicon_link {
+  &__socialicon-link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -69,8 +69,8 @@
     align-items: baseline;
     justify-content: center;
   }
-  &__socialicon_link:hover,
-  &navigation__socialicon_link:focus {
+  &__socialicon-link:hover,
+  &navigation__socialicon-link:focus {
     color: var(--main-color);
     fill: var(--main-color);
     transition-duration: 250ms;
@@ -82,19 +82,19 @@
 
 // ---------------------------------------------------- HEADER-RIGHT --------------------------------------------------
 
-.navigation__socialicon_link:hover .navigation__socialicon_link-mail {
+.navigation__socialicon-link:hover .navigation__socialicon-link-mail {
   fill: var(--main-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation__socialicon_link:hover .navigation__socialicon_link-smartphone {
+.navigation__socialicon-link:hover .navigation__socialicon-link-smartphone {
   fill: var(--main-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.navigation__socialicon_link-mail {
+.navigation__socialicon-link-mail {
   cursor: pointer;
   margin-right: 10px;
   width: 16px;
@@ -102,18 +102,18 @@
   fill: #757575;
 }
 
-.navigation__socialicon_link-mail:hover,
-.navigation__socialicon_link-mail:focus {
+.navigation__socialicon-link-mail:hover,
+.navigation__socialicon-link-mail:focus {
   fill: var(--main-color);
   color: var(--main-color);
 }
 
-.navigation__socialicon_link-smartphone:hover,
-.navigation__socialicon_link-smartphone:focus {
+.navigation__socialicon-link-smartphone:hover,
+.navigation__socialicon-link-smartphone:focus {
   fill: var(--main-color);
 }
 
-.navigation__socialicon_link-smartphone {
+.navigation__socialicon-link-smartphone {
   fill: var(--main-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -122,13 +122,13 @@
   right: 0px;
 }
 
-.navigation__socialicon_link-smartphone {
+.navigation__socialicon-link-smartphone {
   margin-right: 10px;
   margin-left: 30px;
   right: 0px;
 }
 
-.navigation__socialicon_link-smartphone {
+.navigation__socialicon-link-smartphone {
   width: 10px;
   height: 16px;
   fill: #757575;

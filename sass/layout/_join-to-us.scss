@@ -18,7 +18,6 @@
     margin-bottom: 20px;
     position: absolute;
     top: 2644px;
-    
   }
 }
 
@@ -33,16 +32,14 @@
   left: 531px;
   justify-content: space-between;
   align-items: center;
-  
-  
-  }
 
-  &_item {
-    list-style: none;
-    display: flex;
-    padding-bottom: 200px;
-  }
+
+&_item {
+  list-style: none;
+  display: flex;
+  padding-bottom: 200px;
 }
+
 .join__list_link {
   display: flex;
   width: 44px;
@@ -58,11 +55,10 @@
   }
 }
 
-
-
-.join-html {
+.join-html{
   display: flex;
   flex-direction: column;
   width: 206px;
 }
 
+}
