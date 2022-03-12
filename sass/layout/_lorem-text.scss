@@ -8,7 +8,7 @@
   margin-top: 30px;
 
 
-&_item {
+&-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -21,15 +21,15 @@ justify-content: center; */
   justify-content: center;
 }
 
-&_item {
+&-item {
   flex-basis: 270px;
 }
 
-&_item:not(:last-child){
+&-item:not(:last-child){
   margin-right: 30px;
 }
 
-&_item-p{
+&-item-p{
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
