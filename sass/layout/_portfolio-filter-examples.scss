@@ -28,7 +28,7 @@
 //   }
 // }
 
-.filter__examples_all {
+.filter__examples-all {
   &-1 {
     display: flex;
     flex-wrap: flex;
@@ -52,7 +52,7 @@
   }
 }
 
-.filter__examples_images {
+.filter__examples-images {
   position: relative;
   width: 370px;
   height: 404px;
@@ -73,7 +73,7 @@
   overflow: hidden;
 }
 
-.filter__examples_images {
+.filter__examples-images {
   &-item {
     font-family: var(--main-font);
     font-style: normal;
